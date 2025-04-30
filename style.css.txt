@@ -1,0 +1,69 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #3b0909;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Imagem de perfil */
+.container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #30363d;
+    object-fit: cover;
+}
+
+/* Nome */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f0f6fc;
+}
+
+/* Links estilo GitHub */
+.container a {
+    display: block;
+    background-color: #862323;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 10px 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.container a:hover {
+    background-color: #af1a1a;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8b949e;
+}
